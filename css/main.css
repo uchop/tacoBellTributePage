@@ -10,6 +10,10 @@ h3 {
     text-align: center;
 }
 
+p {
+    text-align: center;
+}
+
 .lastWord {
     color: red; 
 }
@@ -21,18 +25,13 @@ h3 {
     align-items: baseline;
 }
 
-.flex-container > img {
-    background-color: salmon;
-    margin: 50px;
-    padding: 5px;
-    font-size: medium;
-    max-width: 10%;
-    max-height: 50%;
-    justify-content: space-evenly;
+img {
+  width: 125px;
+  border: 5px solid salmon;
+  margin-top: 15px
 }
 .flex-container > div {
     margin-left: 100px;
     margin-right: 25px;
     flex: 0 0 125px;
-    
 }
