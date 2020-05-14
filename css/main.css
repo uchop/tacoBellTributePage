@@ -1,0 +1,38 @@
+.jumbotron {
+    background-image: url("/Images/tbell.jpg");
+    background-size: cover;
+    color: whitesmoke;
+    /* max-width: 50%;
+    max-height: 50%; */
+}
+
+h3 {
+    text-align: center;
+}
+
+.lastWord {
+    color: red; 
+}
+
+.flex-container {
+    display:flex;
+    background-color: royalblue;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+.flex-container > img {
+    background-color: salmon;
+    margin: 50px;
+    padding: 5px;
+    font-size: medium;
+    max-width: 10%;
+    max-height: 50%;
+    justify-content: space-evenly;
+}
+.flex-container > div {
+    margin-left: 100px;
+    margin-right: 25px;
+    flex: 0 0 125px;
+    
+}
