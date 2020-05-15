@@ -31,6 +31,7 @@ img {
   margin-top: 15px
 }
 .flex-container > div {
+    flex-wrap: wrap;
     margin-left: 100px;
     margin-right: 25px;
     flex: 0 0 125px;
