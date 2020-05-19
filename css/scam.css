@@ -1,0 +1,73 @@
+form {
+    margin: auto;
+    width: 400px;
+    border: 1px solid rebeccapurple;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.dividers {
+    border: 1px seagreen dotted;
+    border-radius: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    /* width: 400px; */
+    padding-left: 1em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+
+
+/* #name, #mail, #msg{ */
+    /* display: inline-block; */
+    /* width: 100px;  */
+    /* text-align: right; */
+ /* }   */
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* Match form field borders */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+}
