@@ -10,6 +10,14 @@ h3 {
     text-align: center;
 }
 
+.scam {
+ font-family: cursive;   
+}
+
+.scam-link {
+    font-family: fantasy;
+}
+
 p {
     text-align: center;
 }
