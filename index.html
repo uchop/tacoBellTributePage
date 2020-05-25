@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="/css/main.css">
+        <script src="/js/main.js"></script>
         <title>TBell Tribute</title>
         <link rel="shortcut icon" type="image/png" href="/Images/favicon.png"/>
     </head>
@@ -51,9 +52,10 @@
           </div>
           <div class="flex-wrap">
             <a href="html/baja_blast.html">
-                <img src="Images/baja_blast.jpg">
+                <img id="freeze" src="Images/baja_blast.jpg">
             </a>
-            <p>Baja Blast</p>
+            <p id="drink">Baja Blast</p>
+            <button id="showButton" type="button" onclick="onFreeze()">If Mountain Dew Ain't Yo Thang</button>
           </div>
           <div class="flex-wrap">
             <a href="/html/crunchy_taco.html">
