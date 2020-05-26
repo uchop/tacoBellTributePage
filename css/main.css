@@ -26,6 +26,29 @@ p {
     color: red; 
 }
 
+#showButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 1em;
+    box-shadow: 0 9px #999;
+    transition-duration: 0.4s;
+}
+
+#showButton:hover {
+    background-color: yellow ; /* Green */
+    color: black;
+}
+#showButton:active {
+    box-shadow: 0 4px #999;
+    transform: translateY(4px);
+}
+
 .flex-container {
     display:flex;
     background-color: royalblue;
@@ -36,7 +59,8 @@ p {
 img {
   width: 125px;
   border: 5px solid salmon;
-  margin-top: 15px
+  margin-top: 15px;
+  /* height: 95px; */
 }
 .flex-container > div {
     flex-wrap: wrap;
