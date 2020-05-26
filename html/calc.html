@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <head>
+        <title>Tip Calculator</title>
+        <script src="/js/tip.js"></script>
+        <link rel="stylesheet" href="/css/calculate.css">
+    </head>
+    <body>
+        <div id="calculator">
+            <form>
+                <label for="number">Enter Number of Chalupas</label><br>
+                <input type="number" id="number" placeholder="over 9000"><br>
+                
+                <label for="tip">How much you feeling like tippin (%)</label><br>
+                <input type="number" id="percent-tip" placeholder="Don't cheap out"><br>
+                <!-- <p>%</p> -->
+                <label for="share">How many people you splittin with</label><br>
+                <input type="number" id="split" placeholder="More the merrier"><br>
+            </form>
+            <button type="button" id="calculate" onclick="calculateTip()">Pay the man</button>
+            <div id="cost"></div>
+        </div>
+    </body>
+</html>

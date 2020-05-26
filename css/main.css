@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 .jumbotron {
     background-image: url("/Images/tbell.jpg");
     background-size: cover;
@@ -8,18 +12,38 @@
 
 h3 {
     text-align: center;
+    color: white;
 }
 
 .scam {
  font-family: cursive;   
 }
 
-.scam-link {
+#scam-link {
+    font-family: fantasy;
+    text-align: left;
+    /* display: inline-block; */
+}
+
+#calc {
+    display: inline;
+    margin-left: 3em;
     font-family: fantasy;
 }
 
+#scam-href {
+    margin-left: 500px;
+    display: inline-block;
+}
+
+#scam-link:hover {
+    text-decoration: underline dotted red;
+}
+
+
 p {
     text-align: center;
+    color: whitesmoke;
 }
 
 .lastWord {
@@ -42,7 +66,7 @@ p {
 
 #showButton:hover {
     background-color: yellow ; /* Green */
-    color: black;
+    color: red;
 }
 #showButton:active {
     box-shadow: 0 4px #999;
@@ -51,7 +75,7 @@ p {
 
 .flex-container {
     display:flex;
-    background-color: royalblue;
+    background-color: #0242e3;
     flex-wrap: wrap;
     align-items: baseline;
 }
